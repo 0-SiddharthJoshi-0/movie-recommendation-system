@@ -55,6 +55,7 @@ google_drive_url = "https://drive.google.com/uc?export=download&id=13L5zJRTDGZfB
 # Attempt to download the similarity file
 download_successful = download_file_from_google_drive(google_drive_url, 'similarity.pkl')
 
+
 # Load data
 try:
     movies = pickle.load(open('movies.pkl', 'rb'))
